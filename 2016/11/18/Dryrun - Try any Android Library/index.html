@@ -1,0 +1,31 @@
+<!DOCTYPE html><html lang="zh-cn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"><meta name="format-detection" content="telephone=no"><meta name="format-detection" content="email=no"><meta name="description"><meta name="keywords" content="Hexo, Android, Nodejs, Reactjs, Vuejs"><title>Dryrun - Try any Android Library - Tavis's Blog</title><link rel="stylesheet" href="/css/main_style.min.css"><link rel="icon" href="/default_images/index_icon.jpeg"></head><body><div class="post-header"><img class="background" src="/default_images/post_background.jpg"><div class="post-title"><h1 class="title">Dryrun - Try any Android Library</h1><ul class="meta"><li><i class="icon icon-author"></i>Tavis</li><li><i class="icon icon-clock"></i>2 Minutes</li><li><i class="icon icon-calendar"></i>November 18, 2016</li></ul></div></div><div class="article-content"><h1 id="Dryrun-Try-any-Android-Library"><a href="#Dryrun-Try-any-Android-Library" class="headerlink" title="Dryrun - Try any Android Library"></a>Dryrun - Try any Android Library</h1><p>Try any android library hosted online directly from the command line</p>
+<ul>
+<li><a href="https://github.com/cesarferreira/dryrun" target="_blank" rel="external">Github</a></li>
+</ul>
+<h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><hr>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ gem install dryrun</div></pre></td></tr></table></figure>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><hr>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">dryrun https://github.com/cesarferreira/android-helloworld</div></pre></td></tr></table></figure>
+<p><strong>If you:</strong></p>
+<ul>
+<li>No need to cleanup after you test the library.</li>
+<li>No need to wait for Android Studio to load.<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ dryrun git@github.com:cesarferreira/android-helloworld.git</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="Focus"><a href="#Focus" class="headerlink" title="Focus"></a>Focus</h2><hr>
+<p>you must export your ANDROID_HOME in you $PATH</p>
+<ul>
+<li>On Mac, add this to your ~/.bashrc, ~/.bash_profile or whatever your shell uses:<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># If you installed the SDK via Homebrew, otherwise ~/Library/Android/sdk</div><div class="line">export ANDROID_HOME=/usr/local/opt/android-sdk</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>Here has a tips that <a href="https://facebook.github.io/react-native/releases/0.21/docs/android-setup.html#define-the-android-home-environment-variable" target="_blank" rel="external">how to set $PATH</a> and your ANDROID_HOME is your adb’s parent location.</p>
+</div><div class="article-meta"><div class="categories"><i class="icon icon-category"></i><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Android-Util/">Android_Util</a><span class="category-list-count">3</span></li></ul></div></div><div class="article-comment"><div class="ds-thread" id="ds-thread" data-thread-key="ciwoyl0qa0001bxxj0709ii2d" data-title="Dryrun - Try any Android Library" data-url="http://www.tavis.club/2016/11/18/Dryrun - Try any Android Library/" site-name="tavis"></div><script>var siteName = document.getElementById('ds-thread').getAttribute('site-name');
+var duoshuoQuery = {short_name: siteName};
+(function() {
+  var ds = document.createElement('script');
+  ds.type = 'text/javascript';ds.async = true;
+  ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+  ds.charset = 'UTF-8';
+  (document.getElementsByTagName('head')[0] 
+  || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();</script></div><ul class="navication"><li class="home"><a href="/"><i class="icon icon-home"></i></a></li><li><a href="/2016/11/19/Get Android Running Tasks and Service/"><i class="icon icon-arror-left"></i></a></li><li><a href="/2016/11/17/Use Html.fromHtml() to change TextView’s text color but not work/"><i class="icon icon-arror-right"></i></a></li></ul><div class="page-footer"><div class="top"><ul class="social"><li><a href="https://github.com/tavisWei/" title="GitHub" target="_blank"><i class="icon icon-github"></i></a></li><li><a href="497097135@qq.com" title="Email" target="_blank"><i class="icon icon-email"></i></a></li></ul></div><div class="bottom"><p class="copyright">© 2016 Tavis's Blog</p></div></div></body></html>
